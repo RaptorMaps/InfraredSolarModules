@@ -21,8 +21,17 @@ The dataset consists of 20,000 infrared images that are 24 by 40 pixels each. Th
 | Offline-Module | 828    | Entire module is heated.                                                  |
 | No-Anomaly     | 10,000 | Nominal solar module.                                                     |
 
-The file 2020-02-14_InfraredSolarModules.zip contains an images directory and module_metadata.json that describes metadata for each image.
-The JSON is formatted as `{"<image_number>": {"image_filepath": "images/<image_number>.jpg". "anomaly_class": "<class_name>"}, ...}`
+The file 2020-02-14_InfraredSolarModules.zip contains an images directory and module_metadata.json that describes each image. The metadata JSON is structure is the following:
+
+```
+{
+  "<image_number>": {
+    "image_filepath": "images/<image_number>.jpg", 
+    "anomaly_class": "<class_name>"
+  },
+  ...
+}
+```
 
 ## References
 This dataset was originally presented at ICLR 2020 in AI for Earth Sciences Workshop.
