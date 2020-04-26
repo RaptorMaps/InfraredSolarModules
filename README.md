@@ -34,5 +34,5 @@ The file `2020-02-14_InfraredSolarModules.zip` contains the `images` directory a
 ```
 
 ## References
-This dataset was originally presented at ICLR 2020 in AI for Earth Sciences Workshop.
-ICLR 2020: https://ai4earthscience.github.io/iclr-2020-workshop/papers/ai4earth22.pdf
+This dataset was originally published at ICLR 2020 in AI for Earth Sciences workshop.
+https://ai4earthscience.github.io/iclr-2020-workshop/papers/ai4earth22.pdf
